@@ -185,3 +185,37 @@ header{
     height: 46px;
     padding-left: 20px;
 }
+
+/* features section */
+
+.features-section{
+    padding: 70px var(--padding-inline-selection);
+    margin-top: 100px;
+    background-image: url(./assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-header{
+    text-align: center;
+}
+
+.features-header h2{
+    margin-bottom: 20px;
+}
+
+.features-card{
+    
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.features-area{
+    
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
